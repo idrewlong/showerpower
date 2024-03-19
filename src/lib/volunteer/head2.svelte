@@ -2,7 +2,7 @@
 
 
 
-<div class="hero min-h-screen" style="background-image: url(/sp.webp);">
+<div class="hero min-h-[40rem]" style="background-image: url(/sp.webp);">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="max-w-md bg-red-500 opacity-80 rounded-xl">

@@ -4,14 +4,14 @@
 <section class="pt-48 py-6 h-screen ">
 	<div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div class="py-6 md:py-0 md:px-6">
-			<h1 class="text-4xl font-bold">CONTACT US</h1>
-			<p class="pt-2 pb-4">Fill in the form to start a conversation</p>
+			<h1 class="text-4xl font-bold text-gray-950">CONTACT US</h1>
+			<p class="pt-2 pb-4 text-gray-950">Fill in the form to start a conversation</p>
 			<div class="space-y-4">
 				<p class="flex items-center">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2 sm:mr-6 text-gray-950">
 						<path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
 					</svg>
-					<span>P.O. Box 5804<br> Brandon, MS 39047
+					<span class="text-gray-950">P.O. Box 5804<br> Brandon, MS 39047
 
                     </span>
 				</p>
