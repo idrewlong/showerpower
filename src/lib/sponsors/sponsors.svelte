@@ -1,7 +1,7 @@
 
 
 
-<section class="pt-48 py-6 dark:bg-gray-800 dark:text-gray-50">
+<section class="pt-48 py-6 ">
     <div>
 
 	<div class="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">

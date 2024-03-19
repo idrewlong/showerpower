@@ -1,9 +1,10 @@
 <script>
-    import About from '$lib/about/about.svelte'
+	import Info from '../../lib/about/info.svelte';
 
 </script>
 
 <main>
-    <About />
+
+    <Info/>
 
 </main>

@@ -1,7 +1,7 @@
 
 
 
-<section class="pt-48 py-6 h-screen dark:bg-gray-800 dark:text-gray-50">
+<section class="pt-48 py-6 h-screen ">
 	<div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div class="py-6 md:py-0 md:px-6">
 			<h1 class="text-4xl font-bold">CONTACT US</h1>
@@ -33,17 +33,17 @@
 		<form novalidate="" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
 			<label class="block">
 				<span class="mb-1">Full name</span>
-				<input type="text" placeholder="Leroy Jenkins" class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-blue-400 dark:bg-gray-800">
+				<input type="text" placeholder="Name" class="block w-full py-2 px-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-blue-400 ">
 			</label>
 			<label class="block">
 				<span class="mb-1">Email address</span>
-				<input type="email" placeholder="leroy@jenkins.com" class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-blue-400 dark:bg-gray-800">
+				<input type="email" placeholder="Email" class="block w-full py-2 px-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-blue-400 ">
 			</label>
 			<label class="block">
 				<span class="mb-1">Message</span>
-				<textarea rows="3" class="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-blue-400 dark:bg-gray-800"></textarea>
+				<textarea rows="3" class="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-blue-400 "></textarea>
 			</label>
-			<button type="button" class="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-blue-400 dark:text-gray-900 focus:ring-blue-400 hover:ring-red-400">Submit</button>
+			<button type="button" class="self-center px-8 py-3 text-lg bg-red-500 text-white rounded focus:ring hover:ring focus:ring-opacity-75  focus:ring-blue-400 hover:ring-red-400">Submit</button>
 		</form>
 	</div>
 </section>
