@@ -47,12 +47,12 @@
           <a class="text-gray-500 duration-500 hover:text-opacity-70  hover:underline ease-in-out" href="/sponsors" on:click={closeNavbar}>Sponsors</a>
           <a class="text-gray-500 duration-500 hover:text-opacity-70  hover:underline ease-in-out" href="https://www.bonfire.com/store/gobelove-swag/" on:click={closeNavbar}>#GOBELOVE</a>
           <a class="text-gray-500 duration-500 hover:text-opacity-70  hover:underline ease-in-out" href="/contactus" on:click={closeNavbar}>Contact</a>
-          <a href="/" class="text-gray-500 duration-500 hover:text-opacity-70  hover:underline ease-in-out md:bg-red-500 md:px-4 md:py-2 rounded-md md:text-white block md:hidden">Donate</a>
+          <a href="https://showerpower.kindful.com/" class="text-gray-500 duration-500 hover:text-opacity-70  hover:underline ease-in-out md:bg-red-500 md:px-4 md:py-2 rounded-md md:text-white block md:hidden">Donate</a>
 
 
         
         </div>
-        <a href="/" class="bg-red-500 px-4 py-2 rounded-md text-white hidden md:block hover:opacity-80 ease-out duration-300">Donate</a>
+        <a href="https://showerpower.kindful.com/" class="bg-red-500 px-4 py-2 rounded-md text-white hidden md:block hover:opacity-80 ease-out duration-300">Donate</a>
         
       </nav>
     </div>

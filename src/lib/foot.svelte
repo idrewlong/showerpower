@@ -2,23 +2,24 @@
 
 
   <footer class="px-4 py-8 bg-gray-800 ">
-    <div class="container flex flex-wrap items-center justify-center align-middle mx-auto space-y-4 sm:justify-between sm:space-y-0">
-      <div class="flex flex-row pr-3 space-x-4 sm:space-x-8">
-        <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full">
-          <a href="/" class="flex items-center">
-            <img src="/showerpowerbrand.webp" class="hover:scale-105 duration-200" alt="ShowerPower Logo">
+    <div class="container flex flex-wrap items-center justify-center align-middle mx-auto space-y-4 md:justify-between sm:space-y-0">
+      <div class="flex flex-col md:flex-row md:pr-3 space-x-4 sm:space-x-8">
+        <!-- <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 "> -->
+          <a href="/" class="flex items-center justify-center ">
+            <img src="/showerpowerbrand.webp" class="w-14 hover:scale-105 duration-200" alt="ShowerPower Logo">
         </a>
-        </div>
+      
         <ul class="flex flex-wrap items-center space-x-4 sm:space-x-8">
-          <li>
-            Copyright © 2023 Shower Power - All Rights Reserved. Shower Power is a 501c(3) tax-exempt organization.
+          <li class="text-center md:text-left">
+            Copyright © 2023 Shower Power<br>All Rights Reserved - Shower Power is a 501c(3) tax-exempt organization.
 
 
           </li>
+          <li></li>
          
         </ul>
       </div>
-      <ul class="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
+      <ul class="flex flex-wrap md:pl-3 space-x-4 sm:space-x-8">
         <li>
           <a href="https://www.facebook.com/Shower-Power-MS-396041874514702" class="text-gray-500 hover:text-white">
             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
