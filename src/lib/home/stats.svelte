@@ -1,26 +1,24 @@
 <script>
   import { onMount } from 'svelte';
 
-let counters = [0, 0, 0, 0]; 
-const targetValues = [2000, 1500, 1000, 500]; 
+  let counters = [0]; // Initialize counters as an array
+  const targetValues = [2000]; // Initialize targetValues as an array
 
+  function incrementCounter(index) {
+    if (counters[index] < targetValues[index]) {
+      counters[index] += 1;
 
-function incrementCounter(index) {
-  if (counters[index] < targetValues[index]) {
-    counters[index] += 1;
-
-    setTimeout(() => incrementCounter(index), 0.1);
+      setTimeout(() => incrementCounter(index), 0.05);
+    }
   }
-}
 
-
-onMount(() => {
-
-  for (let i = 0; i < counters.length; i++) {
-    incrementCounter(i);
-  }
-});
+  onMount(() => {
+    for (let i = 0; i < counters.length; i++) {
+      incrementCounter(i);
+    }
+  });
 </script>
+
 
 
 
